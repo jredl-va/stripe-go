@@ -13,6 +13,9 @@ type Discount struct {
 	Customer     string  `json:"customer"`
 	Deleted      bool    `json:"deleted"`
 	End          int64   `json:"end"`
+	ID           string  `json:"id"`
+	Invoice      string  `json:"invoice"`
+	InvoiceItem  string  `json:"invoice_item"`
 	Start        int64   `json:"start"`
 	Subscription string  `json:"subscription"`
 }
